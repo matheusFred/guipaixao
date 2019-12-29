@@ -109,7 +109,7 @@ $(window).load(function(){
 
   $(function() {
     typed.typed({
-      strings: ["Guilherme Paixão.", "Designer.", "Design thinker"],
+      strings: ["Guilherme Paixão.", "Designer.", "Designer thinker"],
       typeSpeed: 100,
       loop: true,
     });
