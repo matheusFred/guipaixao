@@ -33,11 +33,21 @@ moduleApp.config(function($stateProvider) {
       }
     })   
     .state('postdetail', {
-      url: "/post-detail",
+      url: "/post-detail-0",
       views: {
+        'Return': { templateUrl: 'pags/return.html'},
         'Post': { templateUrl: 'pags/n1.html'},
         'Contact':{ templateUrl: 'pags/contact.html'},
         'Footer':{ templateUrl: 'pags/footer.html'}
       }
-    })      
+    })
+    .state('postdetail1', {
+      url: "/post-detail-1",
+      views: {
+        'Return': { templateUrl: 'pags/return.html'},
+        'Post': { templateUrl: 'pags/n2.html'},
+        'Contact':{ templateUrl: 'pags/contact.html'},
+        'Footer':{ templateUrl: 'pags/footer.html'}
+      }
+    })        
   });
