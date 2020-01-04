@@ -524,7 +524,7 @@ nav ul li a {
 .hr{box-shadow: rgba(0, 0, 0, 0.84) 3px 0px 0px 0px inset;padding-left: 23px}
 .fletter{font-size: 66px;line-height: 0.83;margin-right: 12px;padding-top: 7px;float: left;}
 
-.btn-return{position: fixed;top: 25px;left: 25px;font-size: 35px;}
+.btn-return{z-index: 10; position: fixed;top: 25px;left: 25px;font-size: 35px;}
 
 /*-----------------------------------------------------------------------------------*/
 /*  Contact
