@@ -34,7 +34,7 @@ moduleApp.config(function($stateProvider) {
       url: "/post-detail-0",
       views: {
         'Return': { templateUrl: 'pags/return.html'},
-        'Post': { templateUrl: 'pags/n1.html'},
+        'Post': { templateUrl: 'pags/n1.html', controller: 'postCtrl'},
         'Footer':{ templateUrl: 'pags/footer.html'}
       }
     })
@@ -42,7 +42,7 @@ moduleApp.config(function($stateProvider) {
       url: "/post-detail-1",
       views: {
         'Return': { templateUrl: 'pags/return.html'},
-        'Post': { templateUrl: 'pags/n2.html'},
+        'Post': { templateUrl: 'pags/n2.html', controller: 'postCtrl'},
         'Footer':{ templateUrl: 'pags/footer.html'}
       }
     })        
