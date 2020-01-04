@@ -17,7 +17,6 @@ moduleApp.config(function($stateProvider) {
         'Home': { templateUrl: 'pags/home.html', controller: 'indexCtrl'},
         'About': { templateUrl: 'pags/about.html', controller: 'indexCtrl'},
         'Portfolio': { templateUrl: 'pags/portfolio.html', controller: 'indexCtrl'},
-        'Contact':{ templateUrl: 'pags/contact.html'},
         'Footer':{ templateUrl: 'pags/footer.html'}
       }
     }) 
@@ -28,7 +27,6 @@ moduleApp.config(function($stateProvider) {
         'Home': { templateUrl: 'pags/home.html', controller: 'indexCtrl'},
         'Journal': { templateUrl: 'pags/about.html', controller: 'indexCtrl'},
         'Portfolio': { templateUrl: 'pags/portfolio.html', controller: 'indexCtrl'},
-        'Contact':{ templateUrl: 'pags/contact.html'},
         'Footer':{ templateUrl: 'pags/footer.html'}
       }
     })   
@@ -37,7 +35,6 @@ moduleApp.config(function($stateProvider) {
       views: {
         'Return': { templateUrl: 'pags/return.html'},
         'Post': { templateUrl: 'pags/n1.html'},
-        'Contact':{ templateUrl: 'pags/contact.html'},
         'Footer':{ templateUrl: 'pags/footer.html'}
       }
     })
@@ -46,7 +43,6 @@ moduleApp.config(function($stateProvider) {
       views: {
         'Return': { templateUrl: 'pags/return.html'},
         'Post': { templateUrl: 'pags/n2.html'},
-        'Contact':{ templateUrl: 'pags/contact.html'},
         'Footer':{ templateUrl: 'pags/footer.html'}
       }
     })        

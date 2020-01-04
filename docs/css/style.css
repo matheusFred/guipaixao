@@ -517,9 +517,10 @@ nav ul li a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;}
+  width: 70%;
+}
 
-.hr-photo{width: 600px;height: 490px;}
+.hr-photo{width: 100% !important;height: 300px !important;}
 .hr{box-shadow: rgba(0, 0, 0, 0.84) 3px 0px 0px 0px inset;padding-left: 23px}
 .fletter{font-size: 66px;line-height: 0.83;margin-right: 12px;padding-top: 7px;float: left;}
 
