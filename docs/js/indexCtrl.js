@@ -67,7 +67,8 @@ moduleApp.controller('indexCtrl', function($scope){
   // ========================================================================= //
 
   $('.responsive').on('click', function(e) {
-    $('.nav-menu').slideToggle();
+    $('.nav-menu').slideToggle("slow");
+    clearQueue();
   });
 
 // ========================================================================= //

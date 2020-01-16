@@ -291,7 +291,8 @@ nav ul li a {
   width: 100%;
   height: auto;
   background: #f1f2ff;
-  padding-top: 190px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #about .div-img-bg {
@@ -641,4 +642,10 @@ nav ul li a {
 
 .credits {
   font-size: 13px;
+}
+
+@media only screen and (max-width: 450px) {
+	/****** DEFAULT ******/
+
+	.hidden-mobile{visibility: hidden;display: none;}
 }
