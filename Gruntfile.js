@@ -5,10 +5,10 @@ module.exports = function(grunt){
     browserSync: {
       dev: {
           bsFiles: {
-              src : ['novo/css/*.css','novo/index.html','novo/pag/*.html']
+              src : ['docs/css/*.css','docs/index.html','docs/pag/*.html']
           },
           options: {
-            server: './novo'
+            server: './docs'
           }
       }
     }
