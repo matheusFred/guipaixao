@@ -1,0 +1,112 @@
+@import url('fonts.css');
+
+html{
+    scrollbar-width: none;    
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+html::-webkit-scrollbar { width: 0.5px; height: 0.5px;}
+
+.navbar-simple{
+    z-index: 10;
+    height: 88px;
+    padding: 24px 96px !important;
+    background: #FAFAFA;
+}
+
+.navbar-pagename{
+    font-weight: 600;
+    font-size: 24px !important;
+    color: #18185F !important;
+}
+
+.navbar-navitem a{
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px !important;
+    color: #18185F !important;
+}
+
+.translation-button img{
+    cursor: pointer;
+}
+
+.notselected{
+    display: none;
+    visibility: hidden;
+}
+
+/*   HOME    */
+
+.home-title{
+    font-weight: 400;
+    line-height: 78px;
+    font-size: 64px !important;
+
+    /* identical to box height */
+
+    background: linear-gradient(180deg, #06131A 0%, #0085CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.home-position{
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+
+    color: #18185F !important;
+}
+
+.home-desc{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #18185F;
+}
+
+.home-projects{
+    font-size: 32px;
+    line-height: 39px;
+
+    /* identical to box height */
+
+    color: #18185F;
+}
+
+.project-banner{
+    cursor: pointer;
+}
+.project-banner:hover{
+    opacity: 0.8;
+}
+
+.home-about-us{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #18185F;
+}
+
+.home-contact-us{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    /* identical to box height */
+
+    color: #0009EA;
+}
+
+.about-us-links a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+
+    /* identical to box height */
+
+    color: #466FFF;
+}
